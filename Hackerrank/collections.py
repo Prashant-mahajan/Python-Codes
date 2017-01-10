@@ -5,7 +5,7 @@ N = int(input())
 earned = 0
 
 for i in range(N):
-    size, prize = map(int, input().split())
+    size, prize = map(int, input().split()) #map method is used to convert string to int
     if size in shoes:
         if shoes[size] > 0:
             earned += prize
