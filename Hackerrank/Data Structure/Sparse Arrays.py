@@ -17,3 +17,10 @@ q = int(input())
 for q_itr in range(q):
     queryString = input()
     findSuffix(strings, queryString)
+
+
+# shorter version 
+
+# s = [input() for _ in range(int(input()))]
+# for _ in range(int(input())):
+#     print(s.count(input()))
