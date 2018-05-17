@@ -18,3 +18,14 @@ def print_list(head):
         print(head.data)
         head = head.next
         
+# Inserting new node to the linked list 
+
+def Insert(head, data):
+    if head == None:
+        return Node(data,None)
+    elif head.next == None:
+        head.next = Node(data, None)
+    else: 
+        Insert(head.next, data)
+    return head
+    
