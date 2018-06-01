@@ -1,3 +1,5 @@
+# Problem: https://www.hackerrank.com/challenges/maximum-element/problem
+
 class Stack:
     def __init__(self):
         self.items = [0]
