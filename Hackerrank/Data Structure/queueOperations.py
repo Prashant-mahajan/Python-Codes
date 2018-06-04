@@ -12,3 +12,5 @@ for _ in range(int(input())):
         queue.popleft()
     else: 
         print(queue[0])
+
+
