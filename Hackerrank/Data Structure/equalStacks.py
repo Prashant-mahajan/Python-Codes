@@ -1,3 +1,5 @@
+# Problem: https://www.hackerrank.com/challenges/equal-stacks/problem
+
 #!/bin/python3
 n1N2N3 = input().split()
 n1 = int(n1N2N3[0])
