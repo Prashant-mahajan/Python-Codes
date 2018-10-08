@@ -6,6 +6,8 @@ self.left (the left child of the node)
 self.right (the right child of the node)
 self.data (the value of the node)
 """
+
+# Node, Left, Right 
 def preOrder(root):
     print(root.data) , # Prints values on the same line 
     if root.left is not None:
